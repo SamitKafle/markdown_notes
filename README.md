@@ -1,7 +1,8 @@
 # markdown_notes
 # Dummy Demonstration Repository
 This is a dummy repository
-
+# DOI
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14934771.svg)](https://doi.org/10.5281/zenodo.14934771)
 ## Links to analysis
 This are the links to the analysis
 - [Analysis 1](rmarkdown_notes.md)
