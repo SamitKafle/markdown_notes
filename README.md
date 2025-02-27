@@ -4,7 +4,7 @@ This is a repository for rmarkdown practice
 # DOI
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14934771.svg)](https://doi.org/10.5281/zenodo.14934771)
 ## Links to analysis
-This are the links to the rmarkdown notes
+This is the link to the rmarkdown notes
 - [Analysis 1](rmarkdown_notes.md)
 
 
