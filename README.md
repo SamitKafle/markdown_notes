@@ -6,6 +6,6 @@ This is a dummy repository
 This are the links to the analysis
 - [Analysis 1](rmarkdown_notes.md)
 
-- [Analysis 2]()
+
 
 ## File Tree
