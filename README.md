@@ -9,3 +9,15 @@ This are the links to the analysis
 
 
 ## File Tree
+
+```
+├── markdown_notes.Rproj
+├── README.md
+├── rmarkdown_notes.html
+├── rmarkdown_notes.md     #github formatted markdown
+├── rmarkdown_notes.Rmd
+└── rmarkdown_notes_files
+    └── figure-markdown_strict
+        └── unnamed-chunk-3-1.png
+        
+```
