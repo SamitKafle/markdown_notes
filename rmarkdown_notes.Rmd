@@ -1,0 +1,96 @@
+---
+title: "RmarkdownNotes"
+author: "Samit Kafle"
+date: "`r Sys.Date()`"
+output: 
+md_document:
+  variant: gfm
+  html_document:
+    toc: TRUE
+  word_document:
+  pdf_document:
+  
+
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+library(ggplot2)
+library(rmarkdown)
+```
+
+This is an example of R code
+```{r}
+# this is R code
+summary(mtcars)
+```
+Modify the chunks
+
+```{r include=TRUE, echo=FALSE}
+summary(mtcars)
+```
+
+This is how to include figures
+```{r}
+library(ggplot2)
+data("mtcars")
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point()
+
+
+
+```
+Rmarkdown formating options
+
+# First level header
+## Second level header
+### Third level header
+#### styles
+*italics*
+**this is bold**
+
+- one item
+- another item
+  - one subitem
+  
+  
+1. one item
+2. another item
+  - one subitem
+
+
+# links
+
+[Link to my github](https://github.com/SamitKafle/)
+
+## Images
+![Shrek ggplot](shrek.jpg)
+
+# formatted tables
+```{r}
+library(knitr)
+kable(mtcars, digits = 3, format = "markdown")
+```
+
+
+# Formatted tables
+```{r}
+library(knitr)
+kable(head(mtcars, n = 5), digits = 3, format = "markdown")
+```
+
+
+
+# Dummy Demonstration Repository
+This is a dummy repository
+
+## Links to analysis
+This are the links to the analysis
+- [Analysis 1]()
+- [Analysis 2]()
+
+
+## File Tree
+
